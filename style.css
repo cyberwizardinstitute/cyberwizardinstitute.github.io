@@ -3,8 +3,10 @@ font-family: Ubuntu Mono, Open Sans;
 color: #FFFFFF;
 background-color: #966bf5;
 }
-h1 {font-size: 45px}    
-p {font-size: 24px}
+h1 {font-size: 50px;}    
+p {font-size: 24px;
+line-height: 24px;
+}
 div.body{
   width: 50%;
   background-color: #5a8be6;
@@ -15,6 +17,7 @@ border-style: solid;
     border-color: #3c6991;}
 li {
 text-align: left;
-
+font-size: 24px;
+line-height: 24px;
 
 }
