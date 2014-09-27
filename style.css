@@ -3,7 +3,10 @@ font-family: Ubuntu Mono, Open Sans;
 color: #FFFFFF;
 background-color: #966bf5;
 }
-h1 {font-size: 50px;}    
+h1 {
+  font-size: 50px;
+  margin-top: 0px;
+}
 p {font-size: 24px;
 line-height: 24px;
 }
