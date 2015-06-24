@@ -22,6 +22,13 @@ line-height: 24px;
 .top .right {
   display: inline-block;
 }
+.top a:link, .top a:visited {
+  color: rgb(255,210,235);
+}
+.top .time {
+  color: white;
+  text-shadow: 1px 1px 8px deeppink;
+}
 
 div.body{
   width: 50%;
