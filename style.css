@@ -48,3 +48,19 @@ line-height: 24px;
   width: 50%;
   font-size: 1.2em;
 }
+
+#webring button {
+  background-color: transparent;
+  border-width: 0px;
+  color: white;
+  cursor: pointer;
+}
+
+#webring {
+  font-size: 2em;
+}
+
+#webring .flex * {
+  vertical-align: middle;
+  text-align: center;
+}
