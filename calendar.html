@@ -57,11 +57,14 @@ td  {
     font-size: medium;
     padding: 0.25em 0.25em;   
     width: 14%; 
-    min-height: 220px;
+    height: 180px;
     text-align: left;
     vertical-align: top;
     border: 3px solid rgb(0, 255, 136);
-    }
+}
+td.empty {
+    background-color: #5050a0;
+}
 td a{
     color: yellow;
     font-size: 16px;
@@ -74,8 +77,7 @@ td img{
     height:60px;
 }
 
-/* Styling for the date numbers */
-.date  {     
+.day  {     
     font-size: 24px;
     padding: 0.25em 0.25em;   
     text-align: left;
@@ -90,219 +92,66 @@ td img{
 </head>
 <body>
 <div class="title">Cyber Wizard Institute Calendar</div>
-<center>
-<iframe src="https://www.google.com/calendar/embed?mode=AGENDA&amp;height=1200&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=n2abr50q5rkvehkchnptgo2qnc%40group.calendar.google.com&amp;color=%236B3304&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="1200" height="1200" frameborder="0" scrolling="no"></iframe>
-<br>
-<div class="subtitle">January 2015</div>
-<table border="1">
-<tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr>
-<tr>
-  <td><span class="date">&nbsp;</span></td>
-  <td><span class="date">&nbsp;</span></td>
-  <td><span class="date">&nbsp;</span></td>
-  <td><span class="date">&nbsp;</span></td>
-  <td><span class="date">1</span></td>
-  <td><span class="date">2</span></td>
-  <td><span class="date">3</span></td>
-</tr>
-<tr>
-  <td><span class="date">4</span></td>
-  <td><span class="date">5</span>
-    <a href="https://github.com/cyberwizardinstitute/workshops/blob/master/orientation.markdown"
-    >first day!</a>
-    <div class="facilitators">
-      <img src="//github.com/substack.png" width="24"
-      height="24" alt="substack">13:00-18:00<br>
-      <img src="//github.com/mk30.png" width="24" height="24" alt="mk30">13:00-18:00
-    </div>
-  </td>
-  <td><span class="date">6</span>
-    <p>morning: <a href="https://github.com/cyberwizardinstitute/workshops/blob/master/unix.markdown">unix</a></p>
-    <p>recess: <a href="http://thomaslevine.com/!/real-world-algorithms/#clocksynchronization">Network Time Protocol</a></p>
-    <p>afternoon: Turing Machines</p>
-    <div class="facilitators">
-      <img src="//github.com/substack.png" width="24"
-      height="24" alt="substack">13:00-18:00
-      <br><img src="//github.com/mk30.png" width="24" height="24" alt="mk30">13:00-18:00
-    </div>
-    <div>
-      show and tell: 18:00
-    </div>
-  </td>
-  <td><span class="date">7</span>
-    <a href="https://github.com/cyberwizardinstitute/workshops/blob/master/vim.markdown">vim</a>
-    <p>&amp; emacs</p>
-    <div class="facilitators">
-      <img src="//github.com/substack.png" width="24"
-      height="24" alt="substack">13:00-18:00
-      <br><img src="//github.com/mk30.png" width="24" height="24" alt="mk30">13:00-18:00
-      <br><b>notconfusing‽</b>OH 10:00-13:00
-      <br><img src="//github.com/stevengill.png" width="24" height="24" alt="stevesgill">13:00-18:00
-    </div>
-  </td>
-  <td><span class="date">8</span>
-      <p>morning: <a
-      href="https://github.com/cyberwizardinstitute/workshops/blob/master/html.markdown">html</a>; a cornocopia of neat projects</p>
-      <p>recess: <a href="http://thomaslevine.com/!/bits/">floating-point numbers and 32-bit colors</a></p>
-    <div class="facilitators">
-      <img src="//github.com/substack.png" width="24" height="24" alt="substack">13:00-18:00
-      <br><img src="//github.com/mk30.png" width="24" height="24" alt="mk30">13:00-18:00
-    </div>
-  </td>
-  <td><span class="date">9</span>
-    <a href="https://github.com/cyberwizardinstitute/workshops/blob/master/javascript.markdown">javascript</a>
-    <p>afternoon: <a href="http://thomaslevine.com/!/switching-to-command-line/">Using command-line interfaces instead of clicky interfaces</a> (This may benefit from many facilitators, so we might consider moving it to a different day if we don't have enough facilitators that day.)<p>
-    <div class="facilitators">
-      <img src="//github.com/substack.png" width="24" height="24" alt="substack">13:00-18:00
-      <br><img src="//github.com/mk30.png" width="24" height="24" alt="mk30">13:00-18:00
-    </div>
-  </td>
-  <td><span class="date">10</span></td>
-</tr>
-<tr>
-  <td><span class="date">11</span></td>
-  <td><span class="date">12</span>
-    <a href="https://github.com/cyberwizardinstitute/workshops/blob/master/networks.markdown">computer networks</a>
-    <div class="facilitators">
-      <img src="//github.com/substack.png" width="24" height="24" alt="substack">13:00-18:00
-    </div>
-  </td>
-  <td><span class="date">13</span>
-    <p>
-    <a href="https://github.com/cyberwizardinstitute/workshops/blob/master/node.markdown">node</a>
-    </p>
-    <p>recess: <a href="http://thomaslevine.com/!/arrays/">arrays</a> and <a href="http://thomaslevine.com/!/linked-lists/">linked lists</a></p>
-    <div class="facilitators">
-        <img src="//github.com/mk30.png" width="24" height="24" alt="mk30">13:00-18:00
-        <br><img src="//github.com/bloodyKnuckles.png" width="24" height="24" alt="bloodyKnuckles">13:00-18:00
-    </div>
-    <div>
-      show and tell: 18:00
-    </div>
-  </td>
-  <td><span class="date">14</span>
-    <p>morning: intro to python.</p>
-    <p>afternoon: <a
-    href="https://github.com/cyberwizardinstitute/workshops/blob/master/git.markdown">git and github</a>
-    </p>
-    <p><a href="http://thomaslevine.com/!/setxkbmap-aliases/">keyboard layouts</a></p>
-    <p>Github Pages</p>
-    <p>data-types</p>
-    <div class="facilitators">
-        <b>notconfusing‽</b>OH 10:00-13:00 
-        <br><img src="//github.com/mk30.png" width="24" height="24" alt="mk30">13:00-18:00
-        <br><img src="//github.com/stevengill.png" width="24" height="24" alt="stevesgill">13:00-18:00
-
-    </div>
-  </td>
-  <td><span class="date">15</span>
-    <a href="https://github.com/cyberwizardinstitute/workshops/blob/master/dom_and_svg.markdown">dom, svg, and browserify</a>
-    <div class="facilitators">
-      <img src="//github.com/substack.png" width="24" height="24" alt="substack">13:00-18:00
-      <br><img src="//github.com/bloodyKnuckles.png" width="24" height="24" alt="bloodyKnuckles">13:00-18:00
-    </div>
-  </td>
-  <td><span class="date">16</span>
-  <p>SQL</p>
-    <a href="https://github.com/cyberwizardinstitute/workshops/blob/master/leveldb.markdown">leveldb</a>
-    <p>Career advice from Tom</p>
-    <div class="facilitators">
-      <img src="//github.com/substack.png" width="24" height="24" alt="substack">13:00-18:00
-      <br><img src="//github.com/bloodyKnuckles.png" width="24" height="24" alt="bloodyKnuckles">13:00-18:00
-    </div>
-  </td>
-  <td><span class="date">17</span>
-  </td>
-</tr>
-<tr>
-  <td><span class="date">18</span></td>
-  <td><span class="date">19</span>
-    <p> functional programming</p>
-    <a href="https://github.com/cyberwizardinstitute/workshops/blob/master/regex.markdown">regular expressions</a>
-    <div class="facilitators">
-      <img src="//github.com/substack.png" width="24" height="24" alt="substack">13:00-18:00
-    </div>
-  </td>
-  <td><span class="date">20</span>
-    <p><a href="https://github.com/cyberwizardinstitute/workshops/blob/master/ui.markdown">UI</a></p>
-    <div class="facilitators">
-        <img src="//github.com/mk30.png" width="24" height="24" alt="mk30">13:00-18:00
-    </div>
-    <div>
-      show and tell: 18:00
-    </div>
-  </td>
-  <td><span class="date">21</span>
-    <p>panel data, and tabular data</p>
-    <p>afternoon: Cordova & PhoneGap to build mobile apps</p>
-    <div class="facilitators">
-        <b>notconfusing‽</b>OH 10:00-13:00 
-        <br><img src="//github.com/mk30.png" width="24" height="24" alt="mk30">13:00-18:00
-        <br><img src="//github.com/stevengill.png" width="24" height="24" alt="stevesgill">13:00-18:00
-    </div>
-  </td>
-  <td><span class="date">22</span>
-    <p>concurrency</p>
-    <div class="facilitators">
-      <img src="//github.com/substack.png" width="24" height="24" alt="substack">13:00-18:00
-    </div>
-  </td>
-  <td><span class="date">23</span>
-  <p>alogrithmic complexity</p>
-  </td>
-  <td><span class="date">24</span></td>
-</tr>
-<tr>
-  <td><span class="date">25</span></td>
-  <td><span class="date">26</span>
-    <p>set theory</p>
-    <div class="facilitators">
-      <img src="//github.com/substack.png" width="24" height="24" alt="substack">13:00-18:00
-    </div>
-  </td>
-  <td><span class="date">27</span>
-    <div class="facilitators">
-        <img src="//github.com/mk30.png" width="24" height="24" alt="mk30">13:00-18:00
-    </div>
-    <div>
-      show and tell: 18:00
-    </div>
-  </td>
-  <td><span class="date">28</span>
-    <div class="facilitators">
-        <b>notconfusing‽</b>OH 10:00-13:00 
-        <br><img src="//github.com/mk30.png" width="24" height="24" alt="mk30">13:00-18:00
-        <br><img src="//github.com/stevengill.png" width="24" height="24" alt="stevesgill">13:00-18:00
-
-    </div>
-  </td>
-  <td><span class="date">29</span>
-    <div class="facilitators">
-      <img src="//github.com/substack.png" width="24" height="24" alt="substack">13:00-18:00
-    </div>
-  </td>
-  <td><span class="date">30</span>last day!
-    <div class="facilitators">
-      Cyberpunk masquerade at <b>notconfusing‽</b>'s coop. ≥20:00 
-    </div>
-  </td>
-  <td><span class="date">31</span></td>
-</tr>
+<div class="subtitle">August 2015</div>
+<table>
+  <tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr>
+  <tr>
+    <td class="empty"></td>
+    <td class="empty"></td>
+    <td class="empty"></td>
+    <td class="empty"></td>
+    <td class="empty"></td>
+    <td class="empty"></td>
+    <td>
+      <span class="day">1</span>
+      15:00-19:00
+    </td>
+  </tr>
+  <tr>
+    <td><span class="day">2</span>
+      15:00-19:00
+    </td>
+    <td><span class="day">3</span>
+      18:00-22:00
+    </td>
+    <td><span class="day">4</span>
+      18:00-22:00
+    </td>
+    <td><span class="day">5</span>
+      18:00-22:00
+    </td>
+    <td><span class="day">6</span>
+      18:00-22:00
+    </td>
+    <td><span class="day">7</span>
+      18:00-22:00
+    </td>
+    <td><span class="day">8</span>
+      15:00-19:00
+    </td>
+  </tr>
+  <tr>
+    <td><span class="day">9</span>
+      15:00-19:00
+    </td>
+    <td><span class="day">10</span>
+      18:00-22:00
+    </td>
+    <td><span class="day">11</span>
+      18:00-22:00
+    </td>
+    <td><span class="day">12</span>
+      18:00-22:00
+    </td>
+    <td><span class="day">13</span>
+      18:00-22:00
+    </td>
+    <td><span class="day">14</span>
+      18:00-22:00
+    </td>
+    <td><span class="day">15</span>
+      15:00-19:00
+    </td>
+  </tr>
 </table>
-<div class="footer">
-Generated by <a href="http://freehtmlcalendar.com">FreeHTMLCalendar.com</a> Copyright &copy; 2011 John Dalbey.</div>
-<h2>Other things Tom could do</h2>
-<p>These could go soon</p>
-<ul>
-  <li><a href="http://thomaslevine.com/!/making-your-personal-website/">Making your personal website</a></li>
-  <li><a href="http://thomaslevine.com/!/street-sign-protocol/">What "protocol" means</a></li>
-  <li>Playing business games, like <a href="https://www.brighttalk.com/webcast/9059/131047">this one</a></li>
-  <li>ggplot2 (for plotting plots)</li>
-</ul>
-<p>These might do better towards end of the term.</p>
-<ul>
-  <li><a href="http://thomaslevine.com/!/downloading-binary-files-is-not-magic/">Encodings</a></li>
-  <li><a href="http://thomaslevine.com/!/web-sites-to-data-tables-in-depth/">Reading websites</a></li>
-</ul>
 </body></html>
-
